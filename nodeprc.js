@@ -11,7 +11,7 @@ rl.question('please enter your name : ' , (name) => {
     console.log('Yoyy yoyy My boss iss ' + name);
     rl.close();
 })
-rl.on('close', () => {
-    console.log('Interface closed');
-    process.exit(0);
-})
+// rl.on('close', () => {
+//     console.log('Interface closed');
+//     process.exit(0);
+// })
